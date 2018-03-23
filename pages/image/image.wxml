@@ -1,0 +1,8 @@
+<!--pages/image/image.wxml-->
+<view>1.选择图片 </view>
+<view>2.点击图片预览 </view>
+<view>3.长按图片获取图片信息 </view>
+<button type="primary" bindtap="chooseImg">选择图片</button>
+<view class='imgArr' wx:for="{{tempFilePaths}}" wx:key="a">
+  <image class='img' src='{{item}}' data-img-src="{{item}}" mode='aspectFit' catchtap='previewImage' catchlongpress='getImageInfo'></image>
+</view>

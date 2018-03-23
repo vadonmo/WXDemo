@@ -1,0 +1,6 @@
+<!--pages/demo/demo.wxml-->
+<button type="primary" bindtap="imgTest">图片测试</button>
+<button type="primary" bindtap="recorderTest">录音测试</button>
+<button type="primary" bindtap="videoTest">视频测试</button>
+<button type="primary" bindtap="cameraTest">相机测试</button>
+<button type="primary" bindtap="fileTest">文件测试</button>

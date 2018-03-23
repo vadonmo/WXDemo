@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/demo/demo",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/image/image",
+    "pages/recorder/recorder",
+    "pages/video/video",
+    "pages/camera/camera",
+    "pages/file/file"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/demo/demo",
+        "text": "测试"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      }
+    ]
+  }
+}

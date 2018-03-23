@@ -1,0 +1,10 @@
+/* pages/image/image.wxss */
+.img {
+  width: 250rpx;
+  height: 250rpx;
+}
+
+.imgArr {
+  display: inline-flex;
+  justify-content: space-between;
+}

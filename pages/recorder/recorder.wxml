@@ -1,0 +1,10 @@
+<!--pages/recorder/recorder.wxml-->
+<button type="primary" bindtap="startRecorder">开始录音</button>
+<button type="primary" bindtap="pauseRecorder">暂停录音</button>
+<button type="primary" bindtap="resumeRecorder">继续录音</button>
+<button type="primary" bindtap="stopRecorder">停止录音</button>
+
+<button type='primary' bindtap='playVoice'>播放音频</button>
+<button type='primary' bindtap='pauseVoice'>暂停音频</button>
+<button type='primary' bindtap='stopVoice'>停止音频</button>
+<button type='primary' bindtap='playBackgroundAudio'>播放背景音频</button>
