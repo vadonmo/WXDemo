@@ -1,0 +1,10 @@
+<!--pages/device/bluetooth/bluetooth.wxml-->
+<view class="status">适配器状态：{{ available }}</view>
+<view class="sousuo">是否搜索：{{ discovering }}</view>
+<button type="primary" bindtap="openBluetoothAdapter">初始化蓝牙</button>
+<button type="primary" bindtap="closeBluetoothAdapter">关闭蓝牙</button>
+<button type="primary" bindtap="getBluetoothAdapterState">查看蓝牙状态</button>
+<button type="primary" bindtap="startBluetoothDevicesDiscovery">开始搜寻周围设备</button>
+<button type="primary" bindtap="stopBluetoothDevicesDiscovery">停止搜寻周围设备</button>
+<button type="primary" bindtap="getBluetoothDevices">获取已发现设备</button>
+<button type="primary" bindtap="getConnectedBluetoothDevices">获取已连接设备</button>

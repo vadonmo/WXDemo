@@ -7,7 +7,12 @@
     "pages/recorder/recorder",
     "pages/video/video",
     "pages/camera/camera",
-    "pages/file/file"
+    "pages/file/file",
+    "pages/storage/storage",
+    "pages/location/location",
+    "pages/device/device",
+    "pages/device/system/system",
+    "pages/device/bluetooth/bluetooth"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -4,3 +4,6 @@
 <button type="primary" bindtap="videoTest">视频测试</button>
 <button type="primary" bindtap="cameraTest">相机测试</button>
 <button type="primary" bindtap="fileTest">文件测试</button>
+<button type="primary" bindtap="storageTest">缓存测试</button>
+<button type="primary" bindtap="locationTest">位置测试</button>
+<button type="primary" bindtap="deviceTest">设备测试</button>

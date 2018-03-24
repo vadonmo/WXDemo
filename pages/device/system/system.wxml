@@ -1,0 +1,13 @@
+<!--pages/system/system.wxml-->
+<button type="primary" bindtap="getSystemInfo">获取系统信息</button>
+<button type="primary" bindtap="getNetworkType">获取网络信息</button>
+<text>加速度：{{Accelerometer}}</text>
+<button type="primary" bindtap="startAccelerometer">开始监听加速度</button>
+<button type="primary" bindtap="stopAccelerometer">停止监听加速度</button>
+<text>罗盘：{{Compass}}</text>
+<button type="primary" bindtap="startCompass">开始监听罗盘</button>
+<button type="primary" bindtap="stopCompass">停止监听罗盘</button>
+<button type="primary" bindtap="makePhoneCall">拨打电话</button>
+<button type="primary" bindtap="scanCode">扫码</button>
+<button type="primary" data-text='{{Accelerometer}}' bindtap="setClipboardData">设置剪切板内容</button>
+<button type="primary" bindtap="getClipboardData">获取剪切板内容</button>

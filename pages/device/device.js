@@ -1,51 +1,23 @@
-// pages/demo/demo.js
+// pages/device/device.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+
   },
-  imgTest: function () {
+  systemTest: function () {
     wx.navigateTo({
-      url: '../image/image'
+      url: 'system/system'
     })
   },
-  recorderTest: function () {
+  bluetoothTest: function () {
     wx.navigateTo({
-      url: "../recorder/recorder"
+      url: 'bluetooth/bluetooth'
     })
   },
-  videoTest: function () {
-    wx.navigateTo({
-      url: "../video/video"
-    })
-  },
-  cameraTest: function () {
-    wx.navigateTo({
-      url: '../camera/camera',
-    })
-  },
-  fileTest: function () {
-    wx.navigateTo({
-      url: '../file/file',
-    })
-  },
-  storageTest: function () {
-    wx.navigateTo({
-      url: '../storage/storage',
-    })
-  },
-  locationTest: function () {
-    wx.navigateTo({
-      url: '../location/location',
-    })
-  },
-  deviceTest: function () {
-    wx.navigateTo({
-      url: '../device/device',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

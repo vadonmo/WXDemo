@@ -1,0 +1,11 @@
+<!--pages/storage/storage.wxml-->
+<button type="primary" bindtap="setStorage">设置缓存异步(key1)</button>
+<button type="primary" bindtap="setStorageSync">设置缓存同步(key2)</button>
+<button type="primary" bindtap="getStorage">获取缓存异步</button>
+<button type="primary" bindtap="getStorageSync">获取缓存同步</button>
+<button type="primary" bindtap="getStorageInfo">获取缓存相关信息异步</button>
+<button type="primary" bindtap="getStorageInfoSync">获取缓存相关信息同步</button>
+<button type="primary" bindtap="removeStorage">移除缓存异步(key1)</button>
+<button type="primary" bindtap="removeStorageSync">移除缓存同步(key2)</button>
+<button type="primary" bindtap="clearStorage">移除本地缓存异步</button>
+<button type="primary" bindtap="clearStorageSync">移除本地缓存同步</button>

@@ -35,6 +35,12 @@ Page({
             tempFilePath: tempFilePaths[i],
             success: function (res) {
               var savedFilePath = res.savedFilePath
+              wx.getSavedFileInfo({
+                filePath: savedFilePath,
+                success: function (res) {
+                  console.log("图片信息" + JSON.stringify(res));
+                }
+              })
               _this.getSavedFileList()
             }
           })
@@ -46,7 +52,7 @@ Page({
     var _this = this;
     wx.getSavedFileList({
       success: function (res) {
-        console.log(res.fileList)
+        //console.log(res.fileList)
         _this.setData({
           list: JSON.stringify(res)
         })
